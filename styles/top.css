@@ -1,5 +1,8 @@
 .hero {
     background-image: url("images/dubai.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     padding: 10px 0 40px 0;
     width: 720;
@@ -41,6 +44,7 @@
 @media (min-width: 1000px) {
     .hero {
         padding: 10px 0 470px 0;
+        height: 220px;
     }
 
     .title1 {
