@@ -25,6 +25,32 @@
     text-shadow: 2px 2px 5px black;
 }
 
+@media (min-width:320px)  {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .hero {
+        background-image: url("images/dubai.jpg");
+        background-size: cover;
+        padding: 10px 0 40px 0;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width:961px)  {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .hero {
+        background-image: url("images/dubai.jpg");
+        background-size: cover;
+        padding: 10px 0 40px 0;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media (min-width: 721px) and (max-width: 999px) {
     .hero {
         padding: 10px 0 200px 0;
@@ -43,7 +69,6 @@
 @media (min-width: 1000px) {
     .hero {
         padding: 10px 0 470px 0;
-        height: 220px;
     }
 
     .title1 {
