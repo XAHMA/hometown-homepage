@@ -1,5 +1,5 @@
 .hero {
-    background-image: url("/hometown-homepage/images/dubai.jpg");
+    background-image: url("images/dubai.jpg");
     background-size: cover;
     padding: 10px 0 40px 0;
     width: 720;
