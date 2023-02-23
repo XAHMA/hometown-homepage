@@ -1,0 +1,10 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial;
+}
+
+@font-face {
+    font-family: Ramadhanfest;
+    src: url("styles/Ramadhanfest.ttf");
+}
