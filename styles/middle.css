@@ -3,7 +3,6 @@
 }
 
 .activities {
-    width: 720;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -45,7 +44,6 @@
 }
 
 .card-warp {
-    width: 720;
     height: 340px;
 }
 
