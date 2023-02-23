@@ -2,6 +2,11 @@ body {
     margin: 0 auto;
     text-align: center;
     font-family: Arial;
+
+    background-image: url("images/dubai.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 @font-face {
