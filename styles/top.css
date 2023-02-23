@@ -1,8 +1,5 @@
 .hero {
     background-image: url("images/dubai.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
     background-size: cover;
     padding: 10px 0 40px 0;
     height: 340px;
@@ -23,32 +20,6 @@
     font-size: 16px;
     color: white;
     text-shadow: 2px 2px 5px black;
-}
-
-@media (min-width:320px)  {
-    /* smartphones, iPhone, portrait 480x320 phones */
-    .hero {
-        background-image: url("images/dubai.jpg");
-        background-size: cover;
-        padding: 10px 0 40px 0;
-        height: 340px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media (min-width:961px)  {
-    /* tablet, landscape iPad, lo-res laptops ands desktops */
-    .hero {
-        background-image: url("images/dubai.jpg");
-        background-size: cover;
-        padding: 10px 0 40px 0;
-        height: 340px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 @media (min-width: 721px) and (max-width: 999px) {
