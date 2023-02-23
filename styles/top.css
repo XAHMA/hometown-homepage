@@ -22,7 +22,6 @@
     font-size: 16px;
     color: white;
     text-shadow: 2px 2px 5px black;
-    position: fixed;
 }
 
 @media (min-width: 721px) and (max-width: 999px) {
