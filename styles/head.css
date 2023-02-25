@@ -40,6 +40,8 @@
 @media (min-width: 1000px) {
     .hero {
         padding: 10px 0 470px 0;
+        background-attachment: fixed;
+        height: 300px;
     }
 
     .title1 {
