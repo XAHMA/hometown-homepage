@@ -24,6 +24,7 @@
 
 @media (max-width: 480px) {
     .title2 {
+        width: 380px;
         font-size: 12px;
     }
 }
