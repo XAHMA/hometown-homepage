@@ -87,6 +87,31 @@
     100%{background-color: #ffcdb2;}
 }
 
+@media (max-width: 480px) {
+    .img1,
+    .img2,
+    .img3 {
+        width: 120px;
+        height: 120px;
+    }
+
+    .img1:hover,
+    .img2:hover,
+    .img3:hover {
+        width: 140px;
+        height: 140px;
+    }
+
+    .avatar {
+        width: 100px;
+    }
+    
+    .card {
+        width: 300px;
+        padding: 0 10px;
+    }
+}
+
 @media (min-width: 721px) and (max-width: 999px) {
     .activities {
         height: 400px;
