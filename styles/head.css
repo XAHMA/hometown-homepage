@@ -26,6 +26,7 @@
     .title2 {
         width: 380px;
         font-size: 12px;
+        text-size-adjust: none;
     }
 }
 
